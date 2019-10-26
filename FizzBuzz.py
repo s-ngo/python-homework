@@ -1,4 +1,4 @@
-def fizz_buzz(num):
+def result(num):
     if num % 3 == 0 and num % 5 == 0:
         return 'FizzBuzz'
 
@@ -11,5 +11,5 @@ def fizz_buzz(num):
         return num
 
 for n in range(1,100):
-    print(fizz_buzz(n))
+    print(result(n))
 
